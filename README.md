@@ -1,4 +1,4 @@
-# Exercícios Kotlin - Semana 1
+# :memo: Exercícios Kotlin - Semana 1
 
 ### Diferenças entre arquivos Kotlin e Java
 <hr>
