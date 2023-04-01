@@ -39,13 +39,14 @@ fun main () {
 
     // Exercício 2
     print("Digite o nome de um animal: ")
-    var animal = readln().toString()
+    var animal = readln()
     // Utilizando apenas um número limitado de animais.
-    when (animal) {
+    when (animal.lowercase()) {
         "cachorro", "gato", "vaca", "cavalo" -> println("Esse animal é mamífero")
         "pato", "galinha", "pombo", "águia" -> println("Esse animal é uma Ave")
         "cobra", "jacaré", "tartaruga", "lagarto" -> println("Esse animal é Reptíl")
         else -> println("Esse animal é desconhecido")
+    }
     // Exercício 3
     print("Digite uma letra: ")
     var letra = readln().toString()
